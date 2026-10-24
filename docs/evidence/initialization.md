@@ -54,6 +54,25 @@ inputs. An unborn Git branch initially limited worktree-aware source context;
 the authorized foundation commit supplies its first valid HEAD. Exact observer
 reads and fixed-string matches already resolved the new documentation before it.
 
+After foundation commit `aecd26cc10e86aef55d7c90eef13080c57c4f5d5`, a fresh
+connection verified:
+
+| Check | Result | Receipt |
+| --- | --- | --- |
+| Standard overview | Authored orientation present; summary freshness `fresh`; `README.md`, `AGENTS.md`, `pyproject.toml` discovered as entry points. | [overview](project-control/overview.json) |
+| Numerical representation search | `predominantly floating-point` resolved to `docs/representations.md`, line 7, through the private lexical index and live fallback. | [representation search](project-control/representation-search.json) |
+| Open research question search | `minimal useful representation` resolved to `planning/open-questions.md`, line 7, through worktree-aware discovery. | [question search](project-control/questions-search.json) |
+| Python source search | `Karyoplast research package` resolved to `src/karyoplast/__init__.py`; source commit and working-tree freshness were returned. | [package search](project-control/package-search.json) |
+| Exact document excerpt | Representation foundations lines 1–23 returned `ok`, with a content hash. | [document read](project-control/read.json) |
+| Exact source/config reads | Package source and `pyproject.toml` returned `ok`, with content hashes. | [package reads](project-control/package-read.json) |
+
+Assertions checked fresh orientation, all three entry points, expected source
+paths, valid source-commit identity without a worktree-unavailable error, and
+successful exact reads. These receipts capture in-progress working-tree state
+while verification records were being written. The source hashes identify the
+actual inspected files. Compact overview can require a continuation; use
+`detail="standard"` for useful orientation in one response.
+
 The existing chat's startup-bound stdio connection continued reporting
 `project_not_permitted` after service restart; verification uses a fresh
 connection to the restarted service. Reconnecting an older stdio frontend loads
@@ -63,6 +82,11 @@ No Todo authority, executable research plan, or task completion assertions were
 created. Overview may therefore report `todo_workflow_semantic_unavailable` and
 semantic revision omissions while still returning authored orientation and
 source discovery. These limits must not be reported as completed workflow setup.
+
+Final documentation checks found no broken local Markdown links; staged
+whitespace checks passed. Registration metadata and live readiness results are
+retained in [registration](project-control/registration.json) and
+[service readiness](project-control/service-readiness.json).
 
 ## Neighboring interfaces
 

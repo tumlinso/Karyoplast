@@ -1,15 +1,40 @@
 {
   "status": "partial",
-  "packet": "pkt_18a76296e60c4a4ebb6e1dd7a6207e8f",
+  "packet": "pkt_f7fd9b19f0a34e41b126c1bcdebf7164",
   "data": {
     "semantic": {
-      "question": "src/karyoplast/__init__.py",
-      "clusters": [],
+      "question": "Karyoplast research package",
+      "clusters": [
+        {
+          "theme": "source",
+          "seeds": [
+            {
+              "type": "git_commit",
+              "id": "karyoplast:aecd26cc10e86aef55d7c90eef13080c57c4f5d5",
+              "title": "karyoplast:aecd26cc10e86aef55d7c90eef13080c57c4f5d5",
+              "theme": "source",
+              "authority_label": "heuristic_relevance",
+              "match_basis": "bounded_lexical_overlap",
+              "query_coverage": 0.3333,
+              "matched_terms": [
+                "karyoplast"
+              ],
+              "relevance": "current",
+              "state": null,
+              "objective": null,
+              "summary": null,
+              "path": null,
+              "version": null
+            }
+          ],
+          "relationships": []
+        }
+      ],
       "next_inspection_targets": [
         {
-          "kind": "source_context",
-          "target": "src/karyoplast/__init__.py",
-          "reason": "no_current_query_connected_evidence"
+          "kind": "git_commit",
+          "target": "karyoplast:aecd26cc10e86aef55d7c90eef13080c57c4f5d5",
+          "reason": "bounded_lexical_overlap"
         }
       ],
       "risks_and_contradictions": [
@@ -18,20 +43,55 @@
           "reason": "todo_workflow_semantic_unavailable",
           "authority_label": "missing_evidence"
         }
-      ],
-      "no_strong_architectural_match": true
+      ]
     },
     "source": [
       {
         "repository": "karyoplast",
-        "paths": [
-          "src/karyoplast/__init__.py"
-        ],
+        "paths": [],
         "source": {
-          "error": "repository_worktrees_unavailable",
-          "targets": []
+          "repository": "karyoplast",
+          "worktree": {
+            "id": "wt-543cade1a04f066b",
+            "branch": "main",
+            "dirty": true
+          },
+          "workflow_mapping": [],
+          "source_selector": "working_tree",
+          "source_commit": "aecd26cc10e86aef55d7c90eef13080c57c4f5d5",
+          "source_freshness": "working_tree",
+          "targets": [
+            {
+              "kind": "text",
+              "target": "Karyoplast research package",
+              "source": "private_lexical_index",
+              "matches": [
+                {
+                  "path": "src/karyoplast/__init__.py",
+                  "line": 1,
+                  "excerpt": "\"\"\"Karyoplast research package.",
+                  "score": -13.025255528961058
+                }
+              ]
+            }
+          ],
+          "counts": {
+            "considered": 1,
+            "returned": 1
+          },
+          "result_items": {
+            "considered": 50,
+            "returned": 50
+          },
+          "continuation_cursor": "eyJvZmZzZXQiOjUwLCJzb3VyY2UiOiI2ODFmYWQ2NjQwZDI3MzdlZDU5OTNlOWQ2NDI4NGZiZjcwYmFhNDY1ZDZlNzZjYTljYWU4MmE0NDljMDFlMWU1IiwidiI6MX0"
         },
-        "live_fallback": [],
+        "live_fallback": [
+          {
+            "path": "src/karyoplast/__init__.py",
+            "line": 1,
+            "excerpt": "\"\"\"Karyoplast research package."
+          }
+        ],
         "origin": "lexical_candidate"
       }
     ],
@@ -52,10 +112,19 @@
       "mutation_authority": false,
       "advisory_instruction": true
     },
-    "scope": {},
+    "scope": {
+      "path": "src/"
+    },
     "coverage": "registered_graph_source_symbol_lexical_live; not impact closure"
   },
-  "sources": [],
+  "sources": [
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "src/karyoplast/__init__.py",
+      "content_sha256": "0668ec6656c03166568c7ed0455d1fa9ce9cd91fdbdb82491cb14cddd3a24eff"
+    }
+  ],
   "coverage": {
     "omissions": [
       {
@@ -67,7 +136,7 @@
     "semantic_revision": null,
     "context_revision": 0,
     "context_project_uuid": "karyoplast",
-    "observed_at": "2026-10-24T17:10:30Z",
+    "observed_at": "2026-10-24T17:12:47Z",
     "complete": false
   }
 }

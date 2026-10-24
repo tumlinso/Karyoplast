@@ -1,6 +1,6 @@
 {
   "status": "partial",
-  "packet": "pkt_31f7e17fe0bd47709b6de221e0758929",
+  "packet": "pkt_da2c1dde5cc447d19db535aa47172d16",
   "data": {
     "semantic": {
       "question": "predominantly floating-point",
@@ -26,8 +26,40 @@
         "repository": "karyoplast",
         "paths": [],
         "source": {
-          "error": "repository_worktrees_unavailable",
-          "targets": []
+          "repository": "karyoplast",
+          "worktree": {
+            "id": "wt-543cade1a04f066b",
+            "branch": "main",
+            "dirty": true
+          },
+          "workflow_mapping": [],
+          "source_selector": "working_tree",
+          "source_commit": "aecd26cc10e86aef55d7c90eef13080c57c4f5d5",
+          "source_freshness": "working_tree",
+          "targets": [
+            {
+              "kind": "text",
+              "target": "predominantly floating-point",
+              "source": "private_lexical_index",
+              "matches": [
+                {
+                  "path": "docs/representations.md",
+                  "line": 7,
+                  "excerpt": "| Shared learned parameters | Numerical, predominantly floating-point trainable weights | The computational genome; shared across executions. |",
+                  "score": -9.203343034484906
+                }
+              ]
+            }
+          ],
+          "counts": {
+            "considered": 1,
+            "returned": 1
+          },
+          "result_items": {
+            "considered": 10,
+            "returned": 10
+          },
+          "continuation_cursor": null
         },
         "live_fallback": [
           {
@@ -80,7 +112,7 @@
     "semantic_revision": null,
     "context_revision": 0,
     "context_project_uuid": "karyoplast",
-    "observed_at": "2026-10-24T17:10:28Z",
+    "observed_at": "2026-10-24T17:11:48Z",
     "complete": false
   }
 }

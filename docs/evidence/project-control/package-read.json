@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "packet": "pkt_b826900f8c0a4dd08e3ca60901d9361d",
+  "data": {
+    "files": [
+      {
+        "path": "src/karyoplast/__init__.py",
+        "status": "ok",
+        "content": "\"\"\"Karyoplast research package.\n\nThe package is an initial workspace foundation. It does not yet implement a\ncellular model or make scientific capability claims.\n\"\"\"\n\n__version__ = \"0.1.0\"\n",
+        "line_start": 1,
+        "line_end": 7,
+        "content_sha256": "0668ec6656c03166568c7ed0455d1fa9ce9cd91fdbdb82491cb14cddd3a24eff",
+        "revision": null,
+        "exact": true
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "ok",
+        "content": "[build-system]\nrequires = [\"setuptools>=68\"]\nbuild-backend = \"setuptools.build_meta\"\n\n[project]\nname = \"karyoplast\"\nversion = \"0.1.0\"\ndescription = \"An experimental learned generative model of cellular functioning and development.\"\nreadme = \"README.md\"\nrequires-python = \">=3.10\"\ndependencies = []\n\n[tool.setuptools.packages.find]\nwhere = [\"src\"]\n",
+        "line_start": 1,
+        "line_end": 14,
+        "content_sha256": "ef0365f57ee8a2dc208c0169016da6b16f3249c3b3577c6c6b9124014967c9c6",
+        "revision": null,
+        "exact": true
+      }
+    ],
+    "repository": "karyoplast",
+    "revision": null
+  },
+  "sources": [
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "src/karyoplast/__init__.py",
+      "content_sha256": "0668ec6656c03166568c7ed0455d1fa9ce9cd91fdbdb82491cb14cddd3a24eff",
+      "line_start": 1,
+      "line_end": 7
+    },
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "pyproject.toml",
+      "content_sha256": "ef0365f57ee8a2dc208c0169016da6b16f3249c3b3577c6c6b9124014967c9c6",
+      "line_start": 1,
+      "line_end": 14
+    }
+  ],
+  "coverage": {
+    "omissions": [],
+    "semantic_revision": null,
+    "context_revision": null,
+    "context_project_uuid": null,
+    "observed_at": "2026-10-24T17:12:48Z",
+    "complete": true
+  }
+}

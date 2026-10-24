@@ -1,0 +1,13 @@
+{
+  "workspace": "karyoplast",
+  "configuration": {
+    "display_name": "Karyoplast",
+    "authority_repository": "karyoplast",
+    "repositories": {
+      "karyoplast": {
+        "root": "/home/tumlinson/Karyoplast"
+      }
+    }
+  },
+  "mechanism": "project-control workspace add karyoplast karyoplast /home/tumlinson/Karyoplast --display-name Karyoplast"
+}

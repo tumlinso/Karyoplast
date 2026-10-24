@@ -1,16 +1,136 @@
 {
   "status": "partial",
-  "packet": "pkt_7ec50ed34a0847bd87b58ecf44d292ac",
+  "packet": "pkt_3d1c10a3f1a048b58d0d6e7aff50bb88",
   "data": {
-    "continuation": {
-      "tool": "search",
-      "query": {
-        "kind": "packet",
-        "target": "pkt_7ec50ed34a0847bd87b58ecf44d292ac"
+    "orientation": [
+      {
+        "id": "research-foundation",
+        "kind": "orientation",
+        "version": 1,
+        "retired": false,
+        "payload": {
+          "anchors": [
+            {
+              "content_sha256": "98c8a8e2ad3b214129e5cec35467bfee01b92f2ba292dc3e617683d833d69c70",
+              "path": "README.md",
+              "project": "karyoplast",
+              "repository": "karyoplast"
+            }
+          ],
+          "fields": {
+            "summary": "Karyoplast researches a shared learned numerical genome for persistent cells and eventual founder-to-population development. Status: documentation and Python scaffold only; no model, training, or adopted research plan. Cells have distinct state under shared weights; experts are components, and sequence grounding remains open. Start with README.md and AGENTS.md; docs/ecosystem.md records inspected interfaces and gaps; planning/open-questions.md and planning/roadmap.md guide the next bounded experiment. Architecture, state, time, division, gradients, and Cytoplast/FrameShift contracts remain unresolved."
+          },
+          "id": "research-foundation"
+        },
+        "origin": "project_declared",
+        "revision": 1,
+        "created_at": 1792861805.0029979,
+        "repository_alias": "karyoplast",
+        "provenance": {
+          "source_system": "project-control",
+          "source_project_id": "karyoplast",
+          "source_authority_revision": 1,
+          "scope_digest": "1a27976227b435b30735b458dcdb5c4bf434bd29641f21f869e9b8446cbdc76b"
+        },
+        "field_freshness": {
+          "summary": {
+            "status": "fresh",
+            "sources": [
+              {
+                "source": {
+                  "content_sha256": "98c8a8e2ad3b214129e5cec35467bfee01b92f2ba292dc3e617683d833d69c70",
+                  "path": "README.md",
+                  "project": "karyoplast",
+                  "repository": "karyoplast"
+                },
+                "status": "fresh"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "work": {
+      "identity": {
+        "display_name": "Karyoplast",
+        "project_uuid": null
       },
-      "detail": "extended"
+      "workflow": {
+        "available": false,
+        "reason": "todo_workflow_semantic_unavailable",
+        "source_reason": null,
+        "revision": null,
+        "active_run_id": null,
+        "authority": "compatibility_fallback"
+      },
+      "provider_health": {},
+      "architecture": {
+        "active_run_id": null,
+        "charter_version": null,
+        "interfaces": [],
+        "decisions": []
+      },
+      "current_project_state": [],
+      "active_work": [],
+      "ready_work": [],
+      "current_blockers": [],
+      "architectural_attention": [],
+      "validation_attention": [],
+      "performance_attention": [],
+      "recent_materially_completed": [],
+      "cross_authority_warnings": [],
+      "unresolved_questions": [],
+      "context_staleness": [],
+      "integration_state": [],
+      "historical_state_filtered": {
+        "tasks": 0,
+        "checkpoints": 0,
+        "gates": 0,
+        "performance_evidence": 0
+      },
+      "recommended_focus": [],
+      "ranking": {
+        "items_considered": 0,
+        "items_returned": 0,
+        "historical_items_omitted": 0,
+        "budget_bytes": 9000
+      }
     },
-    "needed_bytes": 3069
+    "entry_points": [
+      {
+        "repository": "karyoplast",
+        "path": "AGENTS.md"
+      },
+      {
+        "repository": "karyoplast",
+        "path": "README.md"
+      },
+      {
+        "repository": "karyoplast",
+        "path": "pyproject.toml"
+      }
+    ],
+    "skill_uses": [],
+    "native_authority": {
+      "repository": "karyoplast",
+      "project_id": null,
+      "authority_id": null,
+      "semantic_revision": null,
+      "complete": false,
+      "section_counts": {},
+      "available_detail_routes": [
+        "search(candidate)",
+        "search(effect)",
+        "search(resource)",
+        "search(child)",
+        "search(recovery)",
+        "search(native_context)",
+        "search(context_fragment)",
+        "search(legacy_task)",
+        "history(legacy)",
+        "evidence(native_workflow)"
+      ]
+    }
   },
   "sources": [
     {
@@ -24,17 +144,14 @@
     "omissions": [
       {
         "reason": "semantic_context_revision_skew",
-        "details_truncated": true
-      },
-      {
-        "reason": "response_budget",
-        "unit": "utf8_bytes"
+        "snapshot_revision": null,
+        "context_revision": 0
       }
     ],
     "semantic_revision": null,
     "context_revision": 0,
     "context_project_uuid": "karyoplast",
-    "observed_at": "2026-10-24T17:10:28Z",
+    "observed_at": "2026-10-24T17:11:47Z",
     "complete": false
   }
 }
