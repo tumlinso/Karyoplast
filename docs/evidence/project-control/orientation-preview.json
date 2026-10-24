@@ -1,0 +1,49 @@
+{
+  "status": "preview",
+  "operation_id": "karyoplast-foundation-orientation-20261024-v1",
+  "expected_revision": 0,
+  "review_digest": "841bca7b8a265ccd9d3e5274159d5e72dedba8bf69812182c907b821330c2fdb",
+  "affected": [],
+  "sources": [
+    {
+      "content_sha256": "98c8a8e2ad3b214129e5cec35467bfee01b92f2ba292dc3e617683d833d69c70",
+      "path": "README.md",
+      "project": "karyoplast",
+      "repository": "karyoplast"
+    }
+  ],
+  "invalidations": [
+    {
+      "kind": "graph",
+      "entity_id": "README.md"
+    },
+    {
+      "kind": "search",
+      "entity_id": "README.md"
+    },
+    {
+      "kind": "orientation",
+      "entity_id": "README.md"
+    },
+    {
+      "kind": "graph",
+      "entity_id": "research-foundation"
+    },
+    {
+      "kind": "search",
+      "entity_id": "research-foundation"
+    },
+    {
+      "kind": "orientation",
+      "entity_id": "research-foundation"
+    }
+  ],
+  "trust_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "changes": [
+    {
+      "action": "update_orientation",
+      "kind": "orientation",
+      "id": "research-foundation"
+    }
+  ]
+}

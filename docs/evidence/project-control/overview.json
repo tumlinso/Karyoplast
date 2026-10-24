@@ -1,0 +1,40 @@
+{
+  "status": "partial",
+  "packet": "pkt_7ec50ed34a0847bd87b58ecf44d292ac",
+  "data": {
+    "continuation": {
+      "tool": "search",
+      "query": {
+        "kind": "packet",
+        "target": "pkt_7ec50ed34a0847bd87b58ecf44d292ac"
+      },
+      "detail": "extended"
+    },
+    "needed_bytes": 3069
+  },
+  "sources": [
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "README.md",
+      "content_sha256": "98c8a8e2ad3b214129e5cec35467bfee01b92f2ba292dc3e617683d833d69c70"
+    }
+  ],
+  "coverage": {
+    "omissions": [
+      {
+        "reason": "semantic_context_revision_skew",
+        "details_truncated": true
+      },
+      {
+        "reason": "response_budget",
+        "unit": "utf8_bytes"
+      }
+    ],
+    "semantic_revision": null,
+    "context_revision": 0,
+    "context_project_uuid": "karyoplast",
+    "observed_at": "2026-10-24T17:10:28Z",
+    "complete": false
+  }
+}

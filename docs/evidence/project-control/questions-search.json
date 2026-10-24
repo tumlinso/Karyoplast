@@ -1,0 +1,86 @@
+{
+  "status": "partial",
+  "packet": "pkt_20d8d31d77e4498c931fa87e4aab7fc3",
+  "data": {
+    "semantic": {
+      "question": "minimal useful representation",
+      "clusters": [],
+      "next_inspection_targets": [
+        {
+          "kind": "source_context",
+          "target": "minimal useful representation",
+          "reason": "no_current_query_connected_evidence"
+        }
+      ],
+      "risks_and_contradictions": [
+        {
+          "kind": "missing_operational_authority",
+          "reason": "todo_workflow_semantic_unavailable",
+          "authority_label": "missing_evidence"
+        }
+      ],
+      "no_strong_architectural_match": true
+    },
+    "source": [
+      {
+        "repository": "karyoplast",
+        "paths": [],
+        "source": {
+          "error": "repository_worktrees_unavailable",
+          "targets": []
+        },
+        "live_fallback": [
+          {
+            "path": "planning/open-questions.md",
+            "line": 7,
+            "excerpt": "- What is the minimal useful representation of cellular state for an initial"
+          }
+        ],
+        "origin": "lexical_candidate"
+      }
+    ],
+    "skill_uses": [],
+    "notes": [],
+    "prepared_context": {
+      "notes": [],
+      "goals": [],
+      "omissions": [],
+      "coverage": {
+        "project": "karyoplast",
+        "examined": 0,
+        "matched": 0,
+        "returned": 0,
+        "partial": false
+      },
+      "authoritative": false,
+      "mutation_authority": false,
+      "advisory_instruction": true
+    },
+    "scope": {
+      "path": "planning/open-questions.md"
+    },
+    "coverage": "registered_graph_source_symbol_lexical_live; not impact closure"
+  },
+  "sources": [
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "planning/open-questions.md",
+      "content_sha256": "87aa574eceaa2bc1587a278d029ef2b954d10bb748082362db05750f1b731d6d"
+    }
+  ],
+  "coverage": {
+    "omissions": [
+      {
+        "reason": "semantic_context_revision_skew",
+        "snapshot_revision": null,
+        "context_revision": 0
+      }
+    ],
+    "semantic_revision": null,
+    "context_revision": 0,
+    "context_project_uuid": "karyoplast",
+    "observed_at": "2026-10-24T17:10:29Z",
+    "complete": false
+  }
+}

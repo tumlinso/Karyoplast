@@ -1,0 +1,78 @@
+{
+  "status": "applied",
+  "operation_id": "karyoplast-foundation-orientation-20261024-v1",
+  "revision": 1,
+  "affected": [],
+  "changes": [
+    {
+      "action": "update_orientation",
+      "kind": "orientation",
+      "id": "research-foundation"
+    }
+  ],
+  "invalidations": [
+    {
+      "kind": "graph",
+      "entity_id": "README.md"
+    },
+    {
+      "kind": "search",
+      "entity_id": "README.md"
+    },
+    {
+      "kind": "orientation",
+      "entity_id": "README.md"
+    },
+    {
+      "kind": "graph",
+      "entity_id": "research-foundation"
+    },
+    {
+      "kind": "search",
+      "entity_id": "research-foundation"
+    },
+    {
+      "kind": "orientation",
+      "entity_id": "research-foundation"
+    }
+  ],
+  "receipt": {
+    "status": "applied",
+    "operation_id": "karyoplast-foundation-orientation-20261024-v1",
+    "revision": 1,
+    "affected": [],
+    "changes": [
+      {
+        "action": "update_orientation",
+        "kind": "orientation",
+        "id": "research-foundation"
+      }
+    ],
+    "invalidations": [
+      {
+        "kind": "graph",
+        "entity_id": "README.md"
+      },
+      {
+        "kind": "search",
+        "entity_id": "README.md"
+      },
+      {
+        "kind": "orientation",
+        "entity_id": "README.md"
+      },
+      {
+        "kind": "graph",
+        "entity_id": "research-foundation"
+      },
+      {
+        "kind": "search",
+        "entity_id": "research-foundation"
+      },
+      {
+        "kind": "orientation",
+        "entity_id": "research-foundation"
+      }
+    ]
+  }
+}

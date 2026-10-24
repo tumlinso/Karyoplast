@@ -1,0 +1,49 @@
+{
+  "healthz": {
+    "http_status": 200,
+    "body": {
+      "status": "ok",
+      "jobs": {
+        "dispatcher": "running",
+        "last_error": null,
+        "durable": true
+      },
+      "central_inference": {
+        "status": "unavailable",
+        "reason": "central_supervisor_unavailable"
+      }
+    }
+  },
+  "readyz": {
+    "http_status": 200,
+    "body": {
+      "status": "ready",
+      "core": {
+        "status": "available",
+        "configuration": "valid",
+        "workflow_engine": "available",
+        "fingerprint": "613ec4537777eb0c434906f3b87493aea757d97c31e34de9518b9e29bfe0db33"
+      },
+      "central_inference": {
+        "status": "unavailable",
+        "reason": "central_supervisor_unavailable"
+      },
+      "optional_content": {
+        "status": "available",
+        "catalog_sha256": "cfbaba72645d55c6f445d40ba1e7e8b9e6f76d33606243b3b7ccf163cd030a17",
+        "skill_count": 4
+      }
+    }
+  },
+  "version": {
+    "http_status": 200,
+    "body": {
+      "name": "project-control",
+      "version": "0.4.2",
+      "tool_schema_version": 12,
+      "features": {
+        "automatic_overview": false
+      }
+    }
+  }
+}

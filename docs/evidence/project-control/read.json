@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "packet": "pkt_dd21e6940be748e19ea865354f869e9d",
+  "data": {
+    "files": [
+      {
+        "path": "docs/representations.md",
+        "status": "ok",
+        "content": "# Representational foundations\n\n## Three distinct objects\n\n| Object | Initial expectation | Distinction to preserve |\n| --- | --- | --- |\n| Shared learned parameters | Numerical, predominantly floating-point trainable weights | The computational genome; shared across executions. |\n| Simulated cell state | Vectors, tensors, latent memory, and possibly structured biological variables | Different per cell; evolves during execution and may be inherited at division. |\n| Represented biological genome | Potential exact sequence, annotations, variants, or learned sequence representations | Biological information supplied to or represented by the model, not its trainable weights. |\n\nObservable molecular measurements are another object: a noisy, partial readout\nof biological state. The mapping between latent state and measurements must be\nspecified and tested; a latent coordinate is not automatically a particular\ngene, molecule, or causal mechanism.\n\nNo decision requires neural weights to be strings of bases. Chromosomes are a\nloose analogy for structured or conditionally used parameter groups. Experts,\nif adopted, belong to the shared model; virtual cells are independent executions\nof that model. A precision policy, tensor layout, tokenization, and parameter\npartition scheme have not been selected.\n\n## Alternatives to investigate\n\n",
+        "line_start": 1,
+        "line_end": 23,
+        "content_sha256": "1e24c7691f9b7238390bb0d1006f3331b51c4ddffc67447387fb42d890b41474",
+        "revision": null,
+        "exact": true
+      }
+    ],
+    "repository": "karyoplast",
+    "revision": null
+  },
+  "sources": [
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "docs/representations.md",
+      "content_sha256": "1e24c7691f9b7238390bb0d1006f3331b51c4ddffc67447387fb42d890b41474",
+      "line_start": 1,
+      "line_end": 23
+    }
+  ],
+  "coverage": {
+    "omissions": [],
+    "semantic_revision": null,
+    "context_revision": null,
+    "context_project_uuid": null,
+    "observed_at": "2026-10-24T17:10:31Z",
+    "complete": true
+  }
+}

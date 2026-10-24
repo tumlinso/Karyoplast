@@ -1,0 +1,86 @@
+{
+  "status": "partial",
+  "packet": "pkt_31f7e17fe0bd47709b6de221e0758929",
+  "data": {
+    "semantic": {
+      "question": "predominantly floating-point",
+      "clusters": [],
+      "next_inspection_targets": [
+        {
+          "kind": "source_context",
+          "target": "predominantly floating-point",
+          "reason": "no_current_query_connected_evidence"
+        }
+      ],
+      "risks_and_contradictions": [
+        {
+          "kind": "missing_operational_authority",
+          "reason": "todo_workflow_semantic_unavailable",
+          "authority_label": "missing_evidence"
+        }
+      ],
+      "no_strong_architectural_match": true
+    },
+    "source": [
+      {
+        "repository": "karyoplast",
+        "paths": [],
+        "source": {
+          "error": "repository_worktrees_unavailable",
+          "targets": []
+        },
+        "live_fallback": [
+          {
+            "path": "docs/representations.md",
+            "line": 7,
+            "excerpt": "| Shared learned parameters | Numerical, predominantly floating-point trainable weights | The computational genome; shared across executions. |"
+          }
+        ],
+        "origin": "lexical_candidate"
+      }
+    ],
+    "skill_uses": [],
+    "notes": [],
+    "prepared_context": {
+      "notes": [],
+      "goals": [],
+      "omissions": [],
+      "coverage": {
+        "project": "karyoplast",
+        "examined": 0,
+        "matched": 0,
+        "returned": 0,
+        "partial": false
+      },
+      "authoritative": false,
+      "mutation_authority": false,
+      "advisory_instruction": true
+    },
+    "scope": {
+      "path": "docs/representations.md"
+    },
+    "coverage": "registered_graph_source_symbol_lexical_live; not impact closure"
+  },
+  "sources": [
+    {
+      "project": "karyoplast",
+      "repository": "karyoplast",
+      "path": "docs/representations.md",
+      "content_sha256": "1e24c7691f9b7238390bb0d1006f3331b51c4ddffc67447387fb42d890b41474"
+    }
+  ],
+  "coverage": {
+    "omissions": [
+      {
+        "reason": "semantic_context_revision_skew",
+        "snapshot_revision": null,
+        "context_revision": 0
+      }
+    ],
+    "semantic_revision": null,
+    "context_revision": 0,
+    "context_project_uuid": "karyoplast",
+    "observed_at": "2026-10-24T17:10:28Z",
+    "complete": false
+  }
+}

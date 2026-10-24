@@ -1,0 +1,23 @@
+{
+  "format": "pc-project-amendment/1",
+  "project": "karyoplast",
+  "action": "update_orientation",
+  "intent": "Establish useful source-backed Karyoplast research orientation without adopting implementation work.",
+  "expected_revision": 0,
+  "operation_id": "karyoplast-foundation-orientation-20261024-v1",
+  "payload": {
+    "id": "research-foundation",
+    "fields": {
+      "summary": "Karyoplast researches a shared learned numerical genome for persistent cells and eventual founder-to-population development. Status: documentation and Python scaffold only; no model, training, or adopted research plan. Cells have distinct state under shared weights; experts are components, and sequence grounding remains open. Start with README.md and AGENTS.md; docs/ecosystem.md records inspected interfaces and gaps; planning/open-questions.md and planning/roadmap.md guide the next bounded experiment. Architecture, state, time, division, gradients, and Cytoplast/FrameShift contracts remain unresolved."
+    },
+    "anchors": [
+      {
+        "project": "karyoplast",
+        "repository": "karyoplast",
+        "path": "README.md",
+        "content_sha256": "98c8a8e2ad3b214129e5cec35467bfee01b92f2ba292dc3e617683d833d69c70"
+      }
+    ]
+  },
+  "mode": "preview"
+}

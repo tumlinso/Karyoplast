@@ -1,0 +1,207 @@
+{
+  "format": "karyoplast-source-inspection/1",
+  "observed_at": "2026-10-24T17:08:07.622602+00:00",
+  "method": "Direct documentation and source reads; no builds, imports, model execution, or neighboring writes. Hashes identify inspected working-tree bytes; HEAD alone may not identify those bytes.",
+  "repositories": [
+    {
+      "repository": "Cellerator",
+      "root": "/home/tumlinson/Cellerator",
+      "head": "d8f92616ec81afc47dde261e377d644c6ec4b568",
+      "working_tree_dirty": true,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "362768405c5539cf8fc763b9c815679b02aa5dc1ee616b9cba97b068eae1982f",
+          "bytes": 4051,
+          "differs_from_index_or_untracked": true
+        },
+        {
+          "path": "pyproject.toml",
+          "sha256": "51d005d7fd360e93d3ce99003db993e4e959115aba364964c9b5ca3838c1b870",
+          "bytes": 1423,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "docs/development/python-bindings.md",
+          "sha256": "d930cdbcceadb9e3a5ba21779383c08ed2280073905e14a9d4ef33386bebe484",
+          "bytes": 6432,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "python/cellerator/__init__.py",
+          "sha256": "323723fec1bc5ceb717c47ce583abd5aeeaf9fa87243016cd63d929c0e1bb8e8",
+          "bytes": 4494,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "python/cellerator/torch/product2.py",
+          "sha256": "3aeb83378643ae90827e514be4db04546df5124549f1fec8b335bbfed0de4a72",
+          "bytes": 5640,
+          "differs_from_index_or_untracked": false
+        }
+      ]
+    },
+    {
+      "repository": "Baseplane",
+      "root": "/home/tumlinson/Baseplane",
+      "head": "8edb8e5ed67c5ba522b4e33952becdc843f08c68",
+      "working_tree_dirty": false,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ecdf43cbc6561ca06bb8653ea6bef52da886bdccc1f4baf6ebc2549a476f1e02",
+          "bytes": 3682,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "CMakeLists.txt",
+          "sha256": "535d9f9a3ea3e1d2708b6be514bd533a633bd4613c24a12eff9a4874fa4e59f2",
+          "bytes": 9021,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "docs/development/start.md",
+          "sha256": "181d5a8d17977be11ea2b163b88a93b0f6a6c6f1d0d8d052918441152b21ae93",
+          "bytes": 1880,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "include/Baseplane/dna2.hh",
+          "sha256": "725eb58390a02667927e09578c08db0d9ae44d2d3bbe046d45ae0a47b8e3f852",
+          "bytes": 336,
+          "differs_from_index_or_untracked": false
+        }
+      ]
+    },
+    {
+      "repository": "GlassHelix",
+      "root": "/home/tumlinson/GlassHelix",
+      "head": "69a7a9ebeb6419365a5d126219c661db9241e5d7",
+      "working_tree_dirty": true,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "f3e6ce4d4221c340cb81eacf701c98d9dae6ac7afbde1dd31ac0d20187fb4099",
+          "bytes": 3245,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "include/GlassHelix/core/observation.hh",
+          "sha256": "9a5e2c7cebf3125bbedfb0454bda22c3cea1dd956eeb28a68b3a313cb90dd1bc",
+          "bytes": 1476,
+          "differs_from_index_or_untracked": false
+        }
+      ]
+    },
+    {
+      "repository": "Cytoplast",
+      "root": "/home/tumlinson/Cytoplast",
+      "head": "f8495678f663fca70eb0195f16589d4cab724ea8",
+      "working_tree_dirty": false,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2688a9696c9db9bdf70b7a0ad98899d62eb4c6cb0d3a7e35eb96ab24cd382c10",
+          "bytes": 3582,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "docs/interfaces.md",
+          "sha256": "bb615b59c74928edb0fd85dcc27cce64cc0d86025f3fb35aa632f2db83269911",
+          "bytes": 4209,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "python/cytoplast/__init__.py",
+          "sha256": "d57e0ded96581d6dd6cc865979c1d63bec377597ff53037bd694d4b8fd4ad080",
+          "bytes": 233,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "src/cytoplast.cpp",
+          "sha256": "85612cd1c6650881b3b11d898e1764b743cebafc924c3a1a7912e9f86ec97f52",
+          "bytes": 143,
+          "differs_from_index_or_untracked": false
+        }
+      ]
+    },
+    {
+      "repository": "FrameShift",
+      "root": "/home/tumlinson/FrameShift",
+      "head": "659ce1e2e618d96f8f46f69dd67bdc8ff691ef5e",
+      "working_tree_dirty": true,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "24b4fb8dc0de9ff59b34febec979d17b2cb4815ec726f492606b51b7503b179e",
+          "bytes": 3090,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "docs/backends.md",
+          "sha256": "be4503bedcffe25f6e15211055104e66154061eb6b05491f670c2bdc85d01a38",
+          "bytes": 4911,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "docs/service.md",
+          "sha256": "902aaadb0f133e27d085da16ae4dd93fdd210b8eb0938d069a57e2e65996a74b",
+          "bytes": 4446,
+          "differs_from_index_or_untracked": true
+        },
+        {
+          "path": "src/frameshift/client.py",
+          "sha256": "31d6c2cdae51f264ba03eeeeeed9efaf13bcf16f9ac4229797435dfc7aceee4e",
+          "bytes": 12403,
+          "differs_from_index_or_untracked": true
+        }
+      ]
+    },
+    {
+      "repository": "CellShard",
+      "root": "/home/tumlinson/CellShard",
+      "head": "b9749ad3e5146a04f847533d8c6f1a54146aed20",
+      "working_tree_dirty": false,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "6b2dae902910ec58d015675616fbff95222659a37b8d2b5fd4579882e4358db6",
+          "bytes": 27422,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "include/CellShard/access/adapter.cuh",
+          "sha256": "0bc48c022ba5178e9bc39a481155768f2973b2d57789d52bcc0e46e883caffb0",
+          "bytes": 11253,
+          "differs_from_index_or_untracked": false
+        }
+      ]
+    },
+    {
+      "repository": "device-scheduler",
+      "root": "/home/tumlinson/device-scheduler",
+      "head": "18a9a1d78dfc054a8abebad9e21f7f8fa0705496",
+      "working_tree_dirty": true,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "5501c92e4018c13596c61eccd774cbf3e358f942af4ae9b1f7074096a38b6001",
+          "bytes": 4629,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "docs/using-v1.md",
+          "sha256": "781fd3b9aac2800cd83ec4b67893328b362c007184d23e1d5883382d23935b86",
+          "bytes": 4702,
+          "differs_from_index_or_untracked": false
+        },
+        {
+          "path": "packages/device-scheduler-mcp/src/device_scheduler_mcp/client.py",
+          "sha256": "bd1a8f4160d3d43a377452f636ae307aa082d0418dbd5b63f792e48604827da5",
+          "bytes": 10326,
+          "differs_from_index_or_untracked": false
+        }
+      ]
+    }
+  ]
+}
